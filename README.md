@@ -1,39 +1,51 @@
 # Porto Neobrutalism
 
-Porto Neobrutalism is a personal portfolio website for Adha Minan Basori, built with a bold neobrutalism-inspired design. The project uses plain HTML, CSS, and JavaScript, plus a small local development server for previewing the site.
+**Porto Neobrutalism** adalah portofolio personal frontend developer dengan estetika neobrutalism modern. Situs ini dibuat menggunakan HTML, CSS, dan JavaScript murni, serta dilengkapi server lokal sederhana untuk preview.
 
-## Features
+## Ringkasan
 
-- Responsive portfolio layout
-- Accessible navigation and skip link
-- Preloader animation for a polished first impression
-- Interactive pointer-based card hover effects
-- Simple local server via `dev-server.js`
+- Nama: Adha Minan Basori
+- Jenis: Portfolio frontend developer
+- Teknologi: HTML, CSS, JavaScript
+- Preview lokal: `dev-server.js`
 
-## Files
+## Fitur Utama
 
-- `index.html` — main portfolio page
-- `styles.css` — custom visual style and responsive layout
-- `script.js` — navigation, preloader, and hover interactions
-- `dev-server.js` — lightweight Node.js server for local preview
-- `assets/` — supporting assets and dummy CV file
+- Desain neobrutalism yang tegas dan berani
+- Navigasi responsif dengan menu mobile
+- Skip-link dan fokus aksesibilitas
+- Preloader untuk pengalaman awal yang halus
+- Interaksi hover berbasis pointer pada elemen kartu
 
-## Run locally
+## Struktur Proyek
 
-1. Make sure Node.js is installed.
-2. Open a terminal in the project folder.
-3. Run the server:
+- `index.html` — halaman utama portofolio
+- `styles.css` — gaya visual, layout responsif, dan animasi
+- `script.js` — pengendalian navigasi, preloader, dan efek pointer
+- `dev-server.js` — server Node.js ringan untuk preview lokal
+- `assets/` — aset pendukung termasuk dummy CV
+
+## Cara Menjalankan
+
+1. Pastikan Node.js sudah terpasang.
+2. Buka terminal di folder proyek.
+3. Jalankan perintah:
 
 ```bash
 node dev-server.js
 ```
 
-4. Open the browser at:
+4. Buka browser dan akses:
 
 ```text
 http://localhost:8080
 ```
 
-## Notes
+## Tentang
 
-This project is a simple static portfolio for showcasing frontend skills and visual design direction.
+Situs ini dibuat sebagai contoh portofolio frontend yang fokus pada tampilan visual, aksesibilitas, dan performa. Cocok untuk menampilkan skill HTML/CSS/JS serta kemampuan mendesain antarmuka web yang responsif.
+
+## Kontak
+
+- GitHub: https://github.com/Minbass
+- Email: adha.minan05@gmail.com
