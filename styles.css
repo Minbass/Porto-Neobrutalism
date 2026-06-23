@@ -19,8 +19,7 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+html { color-scheme: light; scroll-behavior: smooth;
 }
 
 body {
@@ -1678,3 +1677,8 @@ h3 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
+
+
+
+
+
