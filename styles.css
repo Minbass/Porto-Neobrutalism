@@ -29,7 +29,7 @@ body {
   background: var(--paper);
   font-family: var(--copy-font);
   line-height: 1.55;
-  padding-inline: max(0px, calc(50vw - var(--max-width) / 2 - var(--page-padding)));
+  /* padding-inline: max(0px, calc(50vw - var(--max-width) / 2 - var(--page-padding))); */
 }
 
 body.nav-open {
@@ -244,7 +244,7 @@ svg {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  max-width: calc(var(--max-width) + (var(--page-padding) * 2));
+  /* max-width: calc(var(--max-width) + (var(--page-padding) * 2)); */
   margin: 0 auto;
   height: var(--header-height);
   padding: 14px var(--page-padding);
@@ -1321,7 +1321,7 @@ h3 {
   position: relative;
   display: grid;
   gap: 24px;
-  max-width: calc(var(--max-width) + (var(--page-padding) * 2));
+  /* max-width: calc(var(--max-width) + (var(--page-padding) * 2)); */
   margin: 0 auto;
   padding: 22px calc(var(--page-padding) + 70px) 34px var(--page-padding);
   border-top: var(--border);
