@@ -243,7 +243,7 @@ svg {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  max-width: calc(var(--max-width) + (var(--page-padding) * 2));
+  /* max-width: calc(var(--max-width) + (var(--page-padding) * 2)); */
   margin: 0 auto;
   height: var(--header-height);
   padding: 14px var(--page-padding);
@@ -338,7 +338,7 @@ svg {
 }
 
 .section {
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   margin: 0 auto;
   padding: 58px var(--page-padding);
 }
@@ -1320,7 +1320,7 @@ h3 {
   position: relative;
   display: grid;
   gap: 24px;
-  max-width: calc(var(--max-width) + (var(--page-padding) * 2));
+  /* max-width: calc(var(--max-width) + (var(--page-padding) * 2)); */
   margin: 0 auto;
   padding: 22px calc(var(--page-padding) + 70px) 34px var(--page-padding);
   border-top: var(--border);
