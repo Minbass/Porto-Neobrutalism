@@ -350,8 +350,8 @@ svg {
 .hero {
   display: grid;
   gap: 28px;
-  min-height: auto;
-  align-items: start;
+  min-height: calc(100vh - var(--header-height));
+  align-items: center;
   padding-top: 36px;
 }
 
